@@ -1,0 +1,44 @@
+.costumers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.costumers__headlines {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.costumers__headlines h2 {
+  font-size: 35px;
+  display: flex;
+  margin-left: 68px;
+  margin-top: 95px;
+  color: #33475b;
+}
+.costumers p {
+  font-size: 18px;
+  margin-left: 70px;
+}
+.costumers-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 450px;
+}
+.costumers-card p {
+  color: #8a8787;
+  margin: 0;
+  padding: 30px;
+}
+.costumers__client {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin: 30px;
+}
+.costumers__client span {
+  color: #969BAB;
+}

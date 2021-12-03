@@ -1,0 +1,52 @@
+
+.proyects {
+  width: 100%;
+  padding: 10px;
+}
+.proyects h2 {
+  font-size: 38px;
+  font-weight: 800;
+  margin: 30px 0 30px 0;
+}
+.card {
+  width: 100%;
+  margin: 50px 0 50px 0;
+}
+.card h3 {
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  font-weight: 400;
+}
+.card img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 20px;
+  padding: 10px;
+}
+.proyect-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+}
+.proyect-bottom p {
+  font-weight: bold;
+  font-size: 18px;
+}
+.proyect-bottom button {
+  background-color: #F90F11;
+  width: 120px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+
+}
