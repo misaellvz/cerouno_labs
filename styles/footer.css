@@ -39,6 +39,7 @@
   .footer {
     justify-content: center;
     flex-direction: row;
+    height: 150px;
   }
   .cerouno_logo {
     margin-left: 20px;
