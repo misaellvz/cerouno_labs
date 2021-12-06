@@ -4,6 +4,10 @@
   align-items: center;
   flex-direction: column;
 }
+.costumers__svg {
+  position: absolute;
+  left: 15px;
+}
 .costumers__headlines {
   display: flex;
   justify-content: center;
@@ -27,6 +31,10 @@
   flex-direction: column;
   width: 100%;
   height: 450px;
+  margin: 50px;
+  width: 350px;
+  box-shadow: -1px 4px 5px 4px rgba(217,210,217,0.38);
+  border-radius: 10px;
 }
 .costumers-card p {
   color: #8a8787;
@@ -41,4 +49,26 @@
 }
 .costumers__client span {
   color: #969BAB;
+}
+@media screen and (min-width: 768px) {
+  .proyects__cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .costumers__svg {
+    left: 600px;
+  }
+  .costumers__card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .costumers-card {
+    margin: 50px;
+    width: 350px;
+    height: 400px;
+    box-shadow: -1px 4px 5px 4px rgba(217,210,217,0.38);
+    border-radius: 10px;
+  }
 }

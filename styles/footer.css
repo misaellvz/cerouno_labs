@@ -15,7 +15,7 @@
   height: 50px;
   padding: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
 }
 .footer__social-media a {
@@ -34,4 +34,23 @@
 .footer span {
   height: 50px;
   margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    justify-content: center;
+    flex-direction: row;
+  }
+  .cerouno_logo {
+    margin-left: 20px;
+  }
+  .footer span {
+    height: 0;
+    width: 300px;
+    vertical-align: baseline;
+  }
+  .footer__social-media {
+    height: 50px;
+    padding: 20px;
+    width: 400px;
+  }
 }

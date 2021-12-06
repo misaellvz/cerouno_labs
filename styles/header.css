@@ -109,11 +109,12 @@ body {
     display: none;
   }
   .header__items {
-    margin-right: 130px;
+    /* margin-right: 90px; */
     display: flex;
     width: 500px;
     justify-content: space-around;
     align-items: center;
+    margin-right: 50px;
   }
   .header__items-li {
     list-style: none;
@@ -122,8 +123,16 @@ body {
     text-decoration: none;
     color: #000;
     font-weight: 500;
+    width: 60px;
     font-size: 14px;
     line-height: 20px;
+  }
+  .header__items-li button {
+    background-color: #F90F11;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
   }
   .header__btn {
     background-color: #F90F11;
