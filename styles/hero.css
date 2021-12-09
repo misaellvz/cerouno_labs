@@ -8,7 +8,7 @@
   padding: 10px;
   margin-top: 50px;
   display: flex;
-  height: 320px;
+  height: 660px;
 }
 .hero__container-headlines {
   margin: 10px;
@@ -42,13 +42,11 @@
   display: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .hero__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 60px;
     padding: 50px;
-    margin: 100px;
   }
   .hero__container-headlines {
     line-height: 30px;
@@ -70,9 +68,25 @@
     margin: 30px 0;
   }
   .hero__container-imageContainer img {
+    border-radius: 100px;
+    width: 300px;
+    height: 430px;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero__container-imageContainer img {
     border-radius: 50%;
     width: 514px;
-    height: 500px;
+    height: 514px;
+    gap: 40px;
     display: flex;
+  }
+  .hero__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+    gap: 130px;
   }
 }
