@@ -29,8 +29,10 @@
   justify-content: center;
   align-items: center;
 }
-.instagram {
+.footer__social-logo {
   color: #969BAB;
+  width: 20px;
+  height: 19px;
 }
 .footer span {
   margin-top: 30px;

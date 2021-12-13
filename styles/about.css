@@ -135,5 +135,6 @@
   }
   .about__text {
     display: flex;
+    width: 80%;
   }
 }
